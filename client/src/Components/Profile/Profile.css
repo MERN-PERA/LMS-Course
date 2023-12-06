@@ -1,0 +1,212 @@
+
+   
+/* Profile.css */
+
+/* .profile {
+    padding-top: 100px;  
+    background-color: peru;
+  } */
+
+  .left-s{
+    position: absolute;
+    top: 50px;
+    background-color: #BCC6CC;
+    /* background-image: linear-gradient(to right, #B6B6B4 0%, #006A4E 100%); */
+    height: 630px;
+    width: 1400px;
+    margin-left: 50px;
+    border-radius: 10px;
+  }
+  
+  .uppersec{
+    background-color: #123456;
+    height: 710px;
+    
+  }
+  
+  /* .profile .details {
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid rgb(31, 25, 25);
+    border-radius: 10px;
+    box-sizing: content-box;
+    padding: 10px;
+    margin-left: 60px;
+    font-weight: 500;
+  } */
+  
+  
+  .profile-picture{
+    height: 210px;
+    width: 230px;
+    margin-left: 970px;
+    position: absolute;
+    top: 180px;
+    border-radius: 130px;
+    border-color: #123456;
+    /* left: 1rem; */
+    
+  }
+
+  .profile-pictureName{
+    position: absolute;
+    left: 64rem;
+    top: 370px;
+    
+  }
+
+  .pp{
+    position: absolute;
+    top: 1rem;
+  }
+
+  
+  .back-button {
+    padding: 10px 28px;
+    background-color: #357EC7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    /* margin-right: 10px; */
+    margin-left: 1195px;
+    position: absolute;
+    top: 110px;
+    
+  }
+
+  .update-button {
+    padding: 10px 20px;
+    background-color: #357EC7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    margin-left: 980px;
+    position: absolute;
+    top: 500px;
+    width: 200px;
+  }
+
+  .logout-button{
+    padding: 10px 20px;
+    background-color: #a23032;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    /* margin-right: 10px; */
+    margin-left: 1300px;
+    position: absolute;
+    top: 110px;
+  }
+
+  .logout-button:hover{ transform: translateY(-5px);}
+
+  
+  .update-button:hover,
+  .back-button:hover {
+    transform: translateY(-5px);
+  }
+  
+  .update-button:active,
+  .back-button:active {
+    background-color: #3e8e41;
+  }
+  
+ 
+  .details li{
+    list-style-type: none;
+  }
+
+  .show-profile:hover{ transform: translateY(-5px);}
+
+  .show-profile{
+    /* display: block; */
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #287acd;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 915px;
+    position: fixed;
+    top: 420px;
+  }
+  .deleteStudent{
+    text-align: center;
+    height: 130px;
+  }
+  .del-btn{
+    background-color:crimson;
+    height: 40px;
+    width: 150px;
+    color: white;
+    border-radius: 5px;
+  }
+  .areaview{
+    background-color:#DCDCDC;
+    height: 550px;
+    width: 845px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+  .tblspc{
+    width: 80px;
+  }
+  .refidview{
+    color: #DCDCDC;
+  }
+  .seneca{
+    background-color: #D1D0CE;
+    width: 480px;
+    margin-left: 10px;
+    border-radius: 10px;
+    height: 250px;
+    margin-top: 5px;
+    text-align: center;
+    box-shadow: 2px 2px silver;
+    color: #15317E;
+  }
+
+  .personalinfo{
+    background-color: #D1D0CE;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 340px;
+    color: #15317E;
+    box-shadow: 2px 2px silver;
+  }
+
+  .paymentinfo{
+    background-color: #D1D0CE;
+    margin-top: 228px;
+    height: 260px;
+    border-radius: 10px;
+    box-shadow: 2px 2px silver;
+    color: #15317E;
+  }
+  .coursedtl{
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  .paymentdtl{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+  }

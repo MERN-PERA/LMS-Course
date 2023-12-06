@@ -1,0 +1,413 @@
+.entryform-main{
+
+    background-color: #006A4E;
+    width: 650px;
+    height: 750px;
+    margin-left: 445px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px gray;
+  }
+
+  .main-area{
+    background-image:linear-gradient(to right, #DADBDD 0% , #D3D3D3 100%);
+    height: 1400px;
+    padding-top: 5px;
+    
+}
+
+.title{
+    background-color: #123456;
+    height: 70px;
+    width: 800px;
+    color: white;
+    margin-left: 350px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 8px;
+    box-shadow: 2px 2px silver;
+}
+.title:hover {
+    background-color: #00A36C;
+  }
+  .create{
+    height: 50px;
+    text-align: center;
+    padding-top: 8px;
+    color: #DCDCDC;
+    margin-top: 10px;
+  }
+  .createbutton{
+    background-image: linear-gradient(to right, #3090C7 , #357EC7);;
+    height: 40px;
+    width: 170px;
+    justify-content: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 16px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 2px 2px silver;
+    border-width: 0px;
+  }
+  .createbutton:hover{
+    color: white;
+    transform: translateY(-3px);
+  }
+
+  /* .entryform-main{
+
+    background-color: #006A4E;
+    width: 600px;
+    height: 700px;
+    margin-left: 700px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px gray;
+  } */
+  .hspace{
+    height: 30px;
+  }
+  .wspace{
+    width: 30px;
+  }
+
+  /* .onei{
+    height: 35px;
+    width: 350px;
+    border-radius: 8px;
+  } */
+
+  .one{
+    margin-left: 41px;
+    color: white;
+  }
+
+  #id{
+    margin-left: 80px;
+    height: 29px;
+  }
+  #name{
+    margin-left: 65px;
+    height: 28px;
+    width: 340px;
+    border: none;
+  }
+  #address{
+    margin-left: 98px;
+    height: 28px;
+    width: 340px;
+  }
+  #contact{
+    margin-left: 38px;
+    height: 28px;
+    width: 340px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  #nic{
+    margin-left: 122px;
+    height: 28px;
+    width: 340px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  #mail{
+    margin-left: 110px;
+    height: 28px;
+    width: 340px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  #username{
+    margin-left: 83px;
+    height: 28px;
+    width: 340px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  #passkey{
+    margin-left: 88px;
+    height: 28px;
+    width: 340px;
+    border-radius: 5px;
+    border: none;
+  }
+  #lesson{
+    margin-left: 88px;
+    height: 28px;
+    width: 340px;
+    border-radius: 5px;
+    border: none;
+  }
+  #payment{
+    margin-left: 76px;
+    height: 28px;
+    width: 340px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .two{
+    height: 35px;
+    width: 345px;
+    border-radius: 8px;
+    margin-left: 20px;
+  }
+  .stdbtn{
+    height: 35px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 230px;
+    border-radius: 17px;
+    background-image: linear-gradient(to right, #FDBD01 , #F6BE00);
+    color: #1F6357;
+    font-size: 18px;
+    border-width: 0px;
+  }
+  .stdbtn:hover{
+    transform: translateY(-3px);
+  }
+
+  .closebtn{
+    margin-left: 20px;
+    width: 30px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border-width: 0px;
+  }
+  .fnt{
+    color: #2B3856;
+    font-size: 30px;
+  
+  }
+
+  .maintable{
+    background-image: linear-gradient(to right, #E5E4E2 , #D1D0CE);
+    margin-left: 80px;
+    margin-top: 50px;
+    border-radius: 7px;
+    box-shadow: 2px 2px silver;
+  }
+  .subtopics{
+    color: #0b4b12;
+    font-size: 17px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .inp{
+    margin: 2px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: none;
+    height: 25px;
+    width: 230px;
+  }
+  .deletebutton{
+    margin: 2px;
+    height: 35px;
+    width: 150px;
+    border-radius: 17px;
+    border: none;
+    background-color: #990012;
+    color: whitesmoke;
+    font-size: 18px;
+    box-shadow: 2px 2px silver;
+  }
+  .deletebutton:hover{
+    transform: translateY(-3px);
+  }
+  .updatebutton{
+    margin: 2px;
+    height: 35px;
+    width: 150px;
+    border-radius: 17px;
+    border: none;
+    background-color: #357EC7;
+    color: whitesmoke;
+    font-size: 18px;
+    box-shadow: 2px 2px silver;
+  }
+  .updatebutton:hover{
+    transform: translateY(-3px);
+  }
+  .mainpanelwelcome{
+    background-color: #006A4E;
+    width: 1304px;
+    margin-left: 109px;
+    margin-top: 40px;
+    height: 550px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .videoplay{
+    width: 1304px;
+    height: 550px;
+    text-align: center;
+    /* justify-content: center; */
+    /* margin-left: 50px; */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .subcatagory{
+   
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .studentpayment{
+    background-color: #357EC7;
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+  }
+  .coursedetails{
+    background-color: #357EC7;
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-left: 10px;
+  }
+  .payblock{
+    background-color: rgb(83, 83, 86);
+    width: 500px;
+    margin-left: 430px;
+    height: 350px;
+    border-radius: 10px;
+  }
+  .courseblock{
+    background-color: rgb(83, 83, 86);
+    width: 500px;
+    margin-left: 430px;
+    height: 350px;
+    border-radius: 10px;
+  }
+
+  .paymentbutton{
+   background-color: rgb(7, 128, 65);
+   height: 30px;
+   margin-left: 200px;
+   margin-top: 30px;
+   border: none;
+   border-radius: 8px;
+   width: 150px;
+   color: white;
+   font-size: 15px;
+  }
+
+  .pcourseid{
+    margin-left: 80px;
+    color: white;
+  }
+  .icourseid{
+    margin-left: 49px;
+    margin-top: 30px;
+    height: 23px;
+    border-radius: 7px;
+    border: none;
+    width: 167px;
+  }
+  .ccourseid{
+    margin-left: 49px;
+    margin-top: 30px;
+    height: 23px;
+    border-radius: 7px;
+    border: none;
+    width: 167px;
+  }
+  .stccourseid{
+    margin-left: 43px;
+    margin-top: 30px;
+    height: 23px;
+    border-radius: 7px;
+    border: none;
+    width: 167px;
+  }
+
+  .pcoursename{
+    margin-left: 80px;
+    color: white;
+  }
+  .scoursename{
+    margin-left: 20px;
+    width: 170px;
+    margin-top: 30px;
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+  }
+  .cscoursename{
+    margin-left: 20px;
+    width: 170px;
+    margin-top: 30px;
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+  }
+
+  .pcoursefee{
+    margin-left: 80px;
+    color: white;
+  }
+  .icoursefee{
+    margin-left: 38px;
+    margin-top: 30px;
+    height: 24px;
+    border-radius: 7px;
+    border: none;
+    width: 167px;
+  }
+  .ccoursemonth{
+    margin-left: 67px;
+    margin-top: 30px;
+    height: 24px;
+    border-radius: 7px;
+    border: none;
+    width: 170px;
+  }
+
+  .pcoursestatus{
+    margin-left: 80px;
+    color: white;
+  }
+  .scoursestatus{
+    margin-left: 08px;
+    margin-top: 30px;
+    width: 171px;
+    height: 26px;
+    border-radius: 7px;
+    border: none;
+
+  }
+  
+  .pcoursedate{
+    margin-left: 80px;
+    color: white;
+  }
+  .icoursedate{
+    margin-left: 17px;
+    width: 171px;
+    margin-top: 30px;
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+  }
+  .videolink{
+    margin-left: 40px;
+    width: 169px;
+    margin-top: 30px;
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+  }
+
+  

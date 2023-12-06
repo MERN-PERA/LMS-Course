@@ -1,0 +1,65 @@
+.nav-list{
+    display: flex;
+    float: right;
+    width: 80%;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+.s1{
+    font-size: 35px;
+    font-weight: 600;
+    margin-right: 150px;
+    margin-top: -10px;
+}
+
+.s2{
+    margin-right: 20px;
+}
+
+.s2>input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:10px;
+    padding-right: 80px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+
+
+.search-i{
+    font-size: 25px;
+    position: absolute;
+    right: 35.5rem;
+    top: 0.5rem;
+    opacity: 0.5;
+
+}
+
+.s3{
+    margin-right: 50px;
+}
+
+.bell{
+    font-size: 23px;
+    position: absolute;
+    top: 0.5rem;
+    right: 32rem;
+    opacity: 0.8;
+    
+    
+}
+
+.s4{
+  position: absolute;
+  right: 10rem;
+
+}
+
+.s5{
+    position: absolute;
+    right: 6rem;
+}
+

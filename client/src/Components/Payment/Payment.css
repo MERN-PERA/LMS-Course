@@ -1,0 +1,191 @@
+.full-content{
+    position: absolute;
+    top: 9rem;
+    width: 900px;
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    margin-right: 80px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.searchbar {
+    display: flex; 
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.searchinput {
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+.fasearch {
+    margin-left: 5px;
+    color: #888;
+    cursor: pointer;
+}
+
+
+.fabell {
+    margin-left: 15px;
+    color: #888;
+    cursor: pointer;
+}
+
+.name {
+    margin-left: 125px;
+    margin-right: 10px;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+
+  h1 {
+    margin-right: 200px;
+}
+
+.body {
+    display: flex;
+    background-color: coral;
+    box-shadow: 2px 2px silver;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.details {
+    padding: 10px;
+}
+
+.column2 {
+    flex: 2;
+}
+
+.titles {
+    display: flex;
+    /* align-items: center; */
+    background-color: orange;
+    /* margin-left: 20px; */
+    border-radius: 8px;
+    box-shadow: 2px 2px silver;
+    margin-top: 20px;
+}
+
+.cname {
+    margin-left: 100px;
+    color: #808080;
+    font-size: 20px;
+  }
+
+.cstatus {
+    margin-left: 500px;
+    color: #808080;
+    font-size: 20px;
+  }
+
+.python {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d3d3d3;
+  }
+
+.logo {
+    width: 75px;
+    height: 75px;
+    margin-left: 0px;
+}
+
+.pythonname {
+    margin-left: 10px;
+    font-size: larger;
+}
+
+.pythonstatus {
+    margin-left: 350px;
+    margin-right: 25px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.recipt {
+    margin-right: 150px;
+    margin-left: 250px;
+}
+
+.date {
+    margin-right: 100px;
+}
+
+.installement1 {
+    display: flex;
+    align-items:center;
+}
+
+.installement {
+    margin-right: 100px;
+}
+
+.date1 {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.installement2 {
+    display: flex;
+    align-items: center;
+}
+
+.lastrow {
+    display: flex;
+    align-items: center;
+}
+
+.paidamount {
+    margin-right: 300px;
+}
+
+.b1 {
+    margin-right: 10px;
+}
+
+.totaldue {
+    margin-right: 550px;
+}
+
+.cyber {
+    display: flex;
+    align-items: center;
+    background-color: #d3d3d3;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+
+
