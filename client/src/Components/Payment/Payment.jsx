@@ -17,7 +17,7 @@ const Payment = () => {
 
     return (
         <div>
-            <Navbar/>
+            {/* <Navbar/> */}
             
             <div className="full-content">
             <div className='titles'>

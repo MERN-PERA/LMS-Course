@@ -37,6 +37,17 @@ const Sidebar = () => {
               <button className="btnone">Dashboard</button>
             </div>
           </Link>
+
+          <div className="hllspace"></div>
+
+
+          <Link to="/courses">
+            <div className="onetex">
+              <button className="btnone">Courses</button>
+            </div>
+          </Link>
+         
+
           <div className="hllspace"></div>
 
           <Link to="/profile">
@@ -44,13 +55,8 @@ const Sidebar = () => {
               <button className="btnone">Student Profile</button>
             </div>
           </Link>
-          <div className="hllspace"></div>
 
-          <Link to="/courses">
-            <div className="onetex">
-              <button className="btnone">Courses</button>
-            </div>
-          </Link>
+
           <div className="hllspace"></div>
 
           <Link to="/payment">
@@ -58,13 +64,15 @@ const Sidebar = () => {
               <button className="btnone">Payment</button>
             </div>
           </Link>
+
           <div className="hllspace"></div>
 
-          <Link to="/settings">
+          {/* <Link to="/settings">
             <div className="onetex">
               <button className="btnone">Admin</button>
             </div>
-          </Link>
+          </Link> */}
+
         </div>
 
         <div className="right">
